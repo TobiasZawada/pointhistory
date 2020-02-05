@@ -1,5 +1,6 @@
 # pointhistory
 
+## Description
 Provides two rings `pointhistory-ring` and `pointhistory-auto-ring`
 for remembering positions of point.
 If a command moves point over a long distance. The previous point position
@@ -10,6 +11,6 @@ This is most useful if you accidently moved point and want to return to the prev
 If you want to remember a point position for later use you can call `pointhistory-point2ring` (bound to <kbd>M-+</kbd>).
 Press <kbd>M-up</kbd> to rotate through the remembered point positions.
 
-# Known issues
+## Known issues
 
 Stores also unexpected intermediate point positions of commands in `pointhistory-auto-ring`. Just keep pressing <kbd>M-S-up</kbd> to skip those positions.
